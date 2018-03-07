@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/Python:3.6-jessie-browsers
+      - image: circleci/Python:3.6.1
     steps:
       - checkout
       - run: echo "Hello world!"
